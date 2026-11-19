@@ -1,0 +1,65 @@
+name: 🤝 Co-Developer & Contributor Application
+description: Apply to join the Formula 1 Apex Legends engineering team and receive collaborator access to our private codebase.
+title: "[Co-Developer] "
+labels: ["co-developer", "recruitment"]
+assignees:
+  - SREphoto
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Welcome to Formula 1 Apex Legends! 🏎️💨
+        Thank you for your interest in co-developing **[Formula 1 Apex Legends](https://formula-1-apex.web.app/?utm_source=github&utm_medium=issue_template&utm_campaign=co_dev_form)**. Approved co-developers receive collaborator access to our private engineering repository (`SREphoto/2026-F1-Nimble-Car`).
+
+  - type: dropdown
+    id: track
+    attributes:
+      label: Primary Engineering Track
+      description: Which engineering track best matches your expertise and interest? (Select one or more)
+      multiple: true
+      options:
+        - "Track 1: Vehicle Dynamics & 4-Wheel Pacejka Physics / 2026 FIA Hybrid & Active Aero"
+        - "Track 2: 3D Graphics, Three.js / WebGL / WebGPU & Custom GLSL Shaders"
+        - "Track 3: AI Racecraft, Path Planning & Interactive Pit Strategy Simulator"
+        - "Track 4: iOS / Mobile PWA, Swift Wrapper, WebAudio Engine Synthesis & Force-Feedback Controllers"
+        - "Track 5: 3D Blender CAD / glTF Circuit & Livery Modeling"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: collaboration_mode
+    attributes:
+      label: Preferred Collaboration Arrangement
+      options:
+        - "Core Co-Developer (Revenue-Share / Equity / Long-Term Partner)"
+        - "Milestone / Contract Engineer (Funded Grant / Sponsorship Milestones)"
+        - "Open-Source / Portfolio Contributor (Co-Author Credit & Reference)"
+        - "Flexible / Open to Discussion"
+    validations:
+      required: true
+
+  - type: input
+    id: links
+    attributes:
+      label: GitHub, Portfolio, LinkedIn, or Live Demos
+      description: Share links to your GitHub profile, past 3D/physics/game projects, or LinkedIn.
+      placeholder: "https://github.com/yourusername | https://yourportfolio.com"
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Relevant Technical Background & Roadmap Modules You Want to Tackle
+      description: Tell us briefly about your experience with Three.js/WebGL, vehicle physics, shaders, game AI, or iOS development, and which items from ROADMAP.md excite you most.
+      placeholder: "e.g., Built a 4-wheel Pacejka tire model in JS/WASM; excited to build Phase 2A suspension & Phase 2F 2026 MGU-K battery clipping..."
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Best Contact Method (Email / Discord / X / LinkedIn)
+      placeholder: "name@example.com or Discord handle"
+    validations:
+      required: false

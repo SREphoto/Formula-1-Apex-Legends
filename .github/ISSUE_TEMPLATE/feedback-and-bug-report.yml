@@ -1,0 +1,37 @@
+name: 🐞 Simulator Feedback, Telemetry Bug Report or Feature Request
+description: Report a bug, performance issue, or feature suggestion for the live web app at formula-1-apex.web.app.
+title: "[Feedback] "
+labels: ["feedback", "triage"]
+assignees:
+  - SREphoto
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feedback Category
+      options:
+        - "Physics / Driving / Active Aero (Z-Mode & X-Mode)"
+        - "3D CFD Wind Tunnel / Mechanical Showroom"
+        - "Grand Prix Circuit / AI Rivals / Autopilot"
+        - "Performance / Loading / FPS (Desktop or iPhone PWA)"
+        - "Cloud Leaderboard / Telemetry HUD"
+        - "Feature Request / New Idea"
+    validations:
+      required: true
+
+  - type: input
+    id: device_browser
+    attributes:
+      label: Device & Browser
+      placeholder: "e.g., macOS Chrome 130 / iPhone 16 Pro Safari Home Screen PWA"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened or what would you like to see?
+      description: Include the Constructor and Circuit you were driving if applicable.
+      placeholder: "Describe what you observed or the feature you'd like to propose..."
+    validations:
+      required: true

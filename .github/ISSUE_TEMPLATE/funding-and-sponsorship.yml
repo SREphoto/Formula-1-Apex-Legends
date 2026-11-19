@@ -1,0 +1,51 @@
+name: 🚀 Funding, Grant & Brand Sponsorship Inquiry
+description: Connect with us regarding seed/angel investment, development grants, or in-game brand & trackside sponsorships.
+title: "[Funding / Sponsorship] "
+labels: ["funding", "sponsorship", "partnership"]
+assignees:
+  - SREphoto
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Partner with Formula 1 Apex Legends 🏁
+        Review our **[Investor, Grant & Brand Sponsorship Pitch Deck (`FUNDING_AND_PITCH.md`)](https://github.com/SREphoto/Formula-1-Apex-Legends/blob/main/FUNDING_AND_PITCH.md)** and experience the live platform at **[formula-1-apex.web.app](https://formula-1-apex.web.app/?utm_source=github&utm_medium=issue_template&utm_campaign=funding_form)**.
+
+  - type: dropdown
+    id: inquiry_type
+    attributes:
+      label: Partnership or Funding Category
+      multiple: true
+      options:
+        - "🏆 Title / Presenting Brand Sponsorship"
+        - "🏎️ In-Game Trackside Gantry / Billboard / Constructor Sponsorship"
+        - "💼 Seed / Angel Investment or Venture Partnership"
+        - "⚙️ R&D / STEM / Ecosystem Development Grant"
+        - "🤝 Media, Creator, or Sim-Hardware Partnership"
+    validations:
+      required: true
+
+  - type: input
+    id: organization
+    attributes:
+      label: Organization / Brand / Fund Name & Website
+      placeholder: "Acme Motorsport Tech — https://example.com"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Partnership Goals & Proposed Scope
+      description: Share how you would like to collaborate, target milestones or sponsorship integrations, and timeline.
+      placeholder: "Tell us about your goals, target audience, or investment/grant focus..."
+    validations:
+      required: true
+
+  - type: input
+    id: contact_info
+    attributes:
+      label: Direct Contact Information (Email / Calendar Link / LinkedIn)
+      placeholder: "partner@example.com"
+    validations:
+      required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🏁 Launch Live 3D Simulator (formula-1-apex.web.app)
+    url: https://formula-1-apex.web.app/?utm_source=github&utm_medium=issue_chooser&utm_campaign=live_app
+    about: Test the live 2026 FIA F1 3D WebGL Digital Twin, CFD Wind Tunnel, and 24-Circuit Racing Simulator in your browser or on iPhone.
+  - name: 📄 Read the Investor, Grant & Brand Sponsorship Pitch Deck
+    url: https://github.com/SREphoto/Formula-1-Apex-Legends/blob/main/FUNDING_AND_PITCH.md
+    about: View executive summary, milestones, use of funds, and trackside/title sponsorship tiers.
+  - name: 🌐 Visit SREdesigns Studio (sredesigns.com)
+    url: https://sredesigns.com
+    about: Portfolio and direct contact for founder & lead architect Samuel R. Erwin III.
